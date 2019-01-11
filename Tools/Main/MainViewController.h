@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  MainViewController.h
 //  Tools
 //
 //  Created by 江鸟 on 2019/1/11.
@@ -8,8 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+NS_ASSUME_NONNULL_BEGIN
 
+@interface MainViewController : UIViewController
 
 @end
 
+NS_ASSUME_NONNULL_END

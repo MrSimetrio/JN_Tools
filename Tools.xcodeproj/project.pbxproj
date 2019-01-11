@@ -8,24 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		32A61D7121E82FA4000523A3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 32A61D7021E82FA4000523A3 /* AppDelegate.m */; };
-		32A61D7421E82FA5000523A3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32A61D7321E82FA5000523A3 /* ViewController.m */; };
-		32A61D7721E82FA5000523A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32A61D7521E82FA5000523A3 /* Main.storyboard */; };
 		32A61D7921E82FA5000523A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32A61D7821E82FA5000523A3 /* Assets.xcassets */; };
 		32A61D7C21E82FA5000523A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32A61D7A21E82FA5000523A3 /* LaunchScreen.storyboard */; };
 		32A61D7F21E82FA5000523A3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 32A61D7E21E82FA5000523A3 /* main.m */; };
+		32E21CD021E8360700025E0A /* UIColor+ColorTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 32E21CCF21E8360700025E0A /* UIColor+ColorTools.m */; };
+		32E21CD521E8381600025E0A /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32E21CD321E8381600025E0A /* MainViewController.m */; };
+		32E21CD621E8381600025E0A /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32E21CD421E8381600025E0A /* MainViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		32A61D6C21E82FA4000523A3 /* Tools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tools.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		32A61D6F21E82FA4000523A3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		32A61D7021E82FA4000523A3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		32A61D7221E82FA5000523A3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		32A61D7321E82FA5000523A3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		32A61D7621E82FA5000523A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		32A61D7821E82FA5000523A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		32A61D7B21E82FA5000523A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		32A61D7D21E82FA5000523A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		32A61D7E21E82FA5000523A3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32E21CCE21E8360700025E0A /* UIColor+ColorTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+ColorTools.h"; sourceTree = "<group>"; };
+		32E21CCF21E8360700025E0A /* UIColor+ColorTools.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+ColorTools.m"; sourceTree = "<group>"; };
+		32E21CD221E8381600025E0A /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		32E21CD321E8381600025E0A /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		32E21CD421E8381600025E0A /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,17 +61,35 @@
 		32A61D6E21E82FA4000523A3 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				32E21CD121E8380300025E0A /* Main */,
+				32E21CCD21E833C900025E0A /* Color */,
 				32A61D6F21E82FA4000523A3 /* AppDelegate.h */,
 				32A61D7021E82FA4000523A3 /* AppDelegate.m */,
-				32A61D7221E82FA5000523A3 /* ViewController.h */,
-				32A61D7321E82FA5000523A3 /* ViewController.m */,
-				32A61D7521E82FA5000523A3 /* Main.storyboard */,
 				32A61D7821E82FA5000523A3 /* Assets.xcassets */,
 				32A61D7A21E82FA5000523A3 /* LaunchScreen.storyboard */,
 				32A61D7D21E82FA5000523A3 /* Info.plist */,
 				32A61D7E21E82FA5000523A3 /* main.m */,
 			);
 			path = Tools;
+			sourceTree = "<group>";
+		};
+		32E21CCD21E833C900025E0A /* Color */ = {
+			isa = PBXGroup;
+			children = (
+				32E21CCE21E8360700025E0A /* UIColor+ColorTools.h */,
+				32E21CCF21E8360700025E0A /* UIColor+ColorTools.m */,
+			);
+			path = Color;
+			sourceTree = "<group>";
+		};
+		32E21CD121E8380300025E0A /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				32E21CD221E8381600025E0A /* MainViewController.h */,
+				32E21CD321E8381600025E0A /* MainViewController.m */,
+				32E21CD421E8381600025E0A /* MainViewController.xib */,
+			);
+			path = Main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -129,8 +150,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				32A61D7C21E82FA5000523A3 /* LaunchScreen.storyboard in Resources */,
+				32E21CD621E8381600025E0A /* MainViewController.xib in Resources */,
 				32A61D7921E82FA5000523A3 /* Assets.xcassets in Resources */,
-				32A61D7721E82FA5000523A3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,23 +162,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				32A61D7421E82FA5000523A3 /* ViewController.m in Sources */,
 				32A61D7F21E82FA5000523A3 /* main.m in Sources */,
 				32A61D7121E82FA4000523A3 /* AppDelegate.m in Sources */,
+				32E21CD021E8360700025E0A /* UIColor+ColorTools.m in Sources */,
+				32E21CD521E8381600025E0A /* MainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		32A61D7521E82FA5000523A3 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				32A61D7621E82FA5000523A3 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		32A61D7A21E82FA5000523A3 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -293,7 +307,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.JN.Tools;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -309,7 +323,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.JN.Tools;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
